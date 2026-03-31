@@ -32,5 +32,5 @@ The nuScenes devkit has specific dependency requirements. To prevent `NumPy 2.0`
 
 ## Example Outputs / Results
 During initial Proof of Concept testing, the model successfully learned the perspective transformation mapping, achieving a strong **Batch Mean Occupancy IoU**.
-
+![alt text](https://github.com/shashankssvi/Bit_and_Bytes_BEV/blob/main/img1?raw=true)
 *(Note to evaluator: Please see the repository images for side-by-side comparisons of the Raw Camera Input, LiDAR Ground Truth, and the Model's predicted Occupancy Heatmap, alongside the Pixel-wise Confusion Matrix).*
