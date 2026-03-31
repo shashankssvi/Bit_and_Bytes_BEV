@@ -21,10 +21,8 @@ Our PyTorch architecture follows a three-stage "Lift and Splat" inspired pipelin
 * **Ground Truth Generation:** We engineered a custom PyTorch `Dataset` class that ingests 3D LiDAR point clouds and camera intrinsic matrices, discretizing the physical points into a 2D 80x80 binary tensor to serve as the training target.
 
 ## Setup & Installation Instructions
-The nuScenes devkit has specific dependency requirements. To prevent `NumPy 2.0` namespace collisions in the Kaggle notebook environment, you must install the following exact versions.
-
-    pip uninstall -y numpy scipy scikit-learn
-    pip install numpy==1.26.4 scipy==1.11.4 scikit-learn==1.3.2 nuscenes-devkit torch torchvision matplotlib seaborn
+Kaggle notebook `https://www.kaggle.com/code/shashankssvision/hackathon-mit`
+accelerator - GPU T4 x2
 
 ## How to Run the Code
 1. Open attached `BEV_Occupancy_PoC.ipynb` in Kaggle.
