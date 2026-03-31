@@ -1,6 +1,8 @@
 # Bird's-Eye-View (BEV) 2D Occupancy Transformer
 
 This repository contains the Round 1 Proof of Concept (PoC) codebase for **Problem Statement 3: Bird's-Eye-View (BEV) 2D Occupancy**.
+model link: 
+> https://drive.google.com/file/d/1ZYaHg2k7ys3Y5Jzk7s_JNuwgKzlniJWV/view?usp=drive_link
 
 ## Project Overview
 Autonomous L4 vehicles cannot rely solely on perspective-distorted front-facing cameras for path planning; they require an accurate top-down 2D "Occupancy Grid." Standard geometric warping (like Inverse Perspective Mapping) stretches 3D obstacles (like poles or cars) across the ground plane. 
