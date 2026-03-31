@@ -39,4 +39,6 @@ During initial Proof of Concept testing, the model successfully learned the pers
 ![output](https://github.com/shashankssvi/Bit_and_Bytes_BEV/blob/main/img3?raw=true)
 
 ![output](https://github.com/shashankssvi/Bit_and_Bytes_BEV/blob/main/img4?raw=true)
+
+![Confusion Materx](https://github.com/shashankssvi/Bit_and_Bytes_BEV/blob/main/confusionMatrix?raw=true)
 *(Note to evaluator: Please see the repository images for side-by-side comparisons of the Raw Camera Input, LiDAR Ground Truth, and the Model's predicted Occupancy Heatmap, alongside the Pixel-wise Confusion Matrix).*
